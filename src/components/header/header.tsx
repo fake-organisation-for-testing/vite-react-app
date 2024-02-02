@@ -1,12 +1,6 @@
 import React from 'react'
 import { Icon } from '../icon/icon'
-import styled from 'styled-components';
-
-const HeaderIcon = styled.div`
-  width: 414px;
-  display: flex;
-  justify-content: space-between;
-`;
+import {HeaderIcon} from '../../styles/header/header_style.ts';
 
 export const Header: React.FC = () => (
   <HeaderIcon data-testid="header">
