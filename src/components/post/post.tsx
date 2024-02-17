@@ -14,7 +14,7 @@ export const Post: React.FC = () => (
         <Username name={"Chadrak"} nameTag={"@chadrakh"} />
       </UserNameContainer>
       <div>
-        <Text text={"Name a show where the lead character is the worst character on the show I’ll get Sabrina Spellman"} />
+        {/* <Text text={"Name a show where the lead character is the worst character on the show I’ll get Sabrina Spellman"} /> */}
       </div>
     </TextContainer>
   </PostContainer>
